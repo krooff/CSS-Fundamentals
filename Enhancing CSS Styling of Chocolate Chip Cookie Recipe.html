@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chocolate Chip Cookie Recipe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header id="header">
+    <h1 class="title">Classic Chocolate Chip Cookies</h1>
+  </header>
+
+  <section id="recipe">
+    <h2 class="section-title">Ingredients</h2>
+    <ul class="ingredients">
+      <li>1 cup butter</li>
+      <li>1 cup white sugar</li>
+      <li>1 cup brown sugar</li>
+      <li>2 large eggs</li>
+      <li>2 tsp vanilla extract</li>
+      <li>3 cups flour</li>
+      <li>1 tsp baking soda</li>
+      <li>1/2 tsp salt</li>
+      <li>2 cups chocolate chips</li>
+    </ul>
+
+    <h2 class="section-title">Instructions</h2>
+    <ol class="steps">
+      <li>Preheat the oven to 350°F (175°C).</li>
+      <li>Cream together the butter, white sugar, and brown sugar.</li>
+      <li>Beat in the eggs and vanilla extract.</li>
+      <li>In another bowl, combine flour, baking soda, and salt.</li>
+      <li>Gradually add the dry ingredients to the wet mixture.</li>
+      <li>Stir in the chocolate chips.</li>
+      <li>Drop spoonfuls of dough onto a baking sheet.</li>
+      <li>Bake for 10-12 minutes, or until golden brown.</li>
+    </ol>
+
+    <footer id="footer">
+      <p>Enjoy your cookies! Find more recipes <a href="https://example.com" class="recipe-link">here</a>.</p>
+    </footer>
+  </section>
+
+</body>
+</html>
+
+/* Task 1: Styling the Header and Footer */
+#header {
+  background-color: #f8b400; /* Light orange background */
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+#footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Task 2: Font Styles */
+.title {
+  font-family: 'Georgia', serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.section-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  margin-top: 20px;
+  color: #6a6a6a;
+}
+
+.ingredients, .steps {
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+/* Task 3: Layout with Margin, Padding, and Border */
+#recipe {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ddd;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Task 4: Hover Effect on Links */
+.recipe-link {
+  color: #f78e69;
+  text-decoration: none;
+}
+
+.recipe-link:hover {
+  color: #c45631;
+  text-decoration: underline;
+}
+
+/* Task 5: Using a Combinator Selector */
+#recipe ul.ingredients li {
+  list-style-type: square;
+}
+
+/* Task 6: Margin and Padding Adjustments */
+.ingredients li, .steps li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
